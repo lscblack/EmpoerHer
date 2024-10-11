@@ -3,11 +3,188 @@ import { FaSearch, FaFilter, FaStar } from 'react-icons/fa';
 
 // Mock data for courses
 const coursesData = [
-  { id: 1, title: 'Introduction to Leadership', category: 'Leadership', level: 'Beginner', price: 99, rating: 4.5 },
-  { id: 2, title: 'Advanced Web Development', category: 'Technology', level: 'Advanced', price: 149, rating: 4.8 },
-  { id: 3, title: 'Personal Branding Mastery', category: 'Career Development', level: 'Intermediate', price: 129, rating: 4.6 },
-  // Add more courses as needed
+  { 
+    id: 1, 
+    title: 'Introduction to Leadership', 
+    category: 'Leadership', 
+    level: 'Beginner', 
+    price: 99, 
+    rating: 4.5, 
+    image: 'https://via.placeholder.com/300?text=Leadership'
+  },
+  { 
+    id: 2, 
+    title: 'Advanced Web Development', 
+    category: 'Technology', 
+    level: 'Advanced', 
+    price: 149, 
+    rating: 4.8, 
+    image: 'https://via.placeholder.com/300?text=Web+Development'
+  },
+  { 
+    id: 3, 
+    title: 'Personal Branding Mastery', 
+    category: 'Career Development', 
+    level: 'Intermediate', 
+    price: 129, 
+    rating: 4.6, 
+    image: 'https://via.placeholder.com/300?text=Branding'
+  },
+  { 
+    id: 4, 
+    title: 'Data Science Fundamentals', 
+    category: 'Technology', 
+    level: 'Beginner', 
+    price: 199, 
+    rating: 4.9, 
+    image: 'https://via.placeholder.com/300?text=Data+Science'
+  },
+  { 
+    id: 5, 
+    title: 'Marketing Strategies for 2024', 
+    category: 'Business', 
+    level: 'Intermediate', 
+    price: 119, 
+    rating: 4.3, 
+    image: 'https://via.placeholder.com/300?text=Marketing'
+  },
+  { 
+    id: 6, 
+    title: 'Introduction to Python', 
+    category: 'Technology', 
+    level: 'Beginner', 
+    price: 89, 
+    rating: 4.7, 
+    image: 'https://via.placeholder.com/300?text=Python'
+  },
+  { 
+    id: 7, 
+    title: 'Digital Marketing Basics', 
+    category: 'Marketing', 
+    level: 'Beginner', 
+    price: 79, 
+    rating: 4.2, 
+    image: 'https://via.placeholder.com/300?text=Digital+Marketing'
+  },
+  { 
+    id: 8, 
+    title: 'JavaScript Mastery', 
+    category: 'Technology', 
+    level: 'Advanced', 
+    price: 139, 
+    rating: 4.9, 
+    image: 'https://via.placeholder.com/300?text=JavaScript'
+  },
+  { 
+    id: 9, 
+    title: 'Content Creation 101', 
+    category: 'Media', 
+    level: 'Beginner', 
+    price: 109, 
+    rating: 4.4, 
+    image: 'https://via.placeholder.com/300?text=Content+Creation'
+  },
+  { 
+    id: 10, 
+    title: 'Cybersecurity Essentials', 
+    category: 'Technology', 
+    level: 'Intermediate', 
+    price: 159, 
+    rating: 4.5, 
+    image: 'https://via.placeholder.com/300?text=Cybersecurity'
+  },
+  { 
+    id: 11, 
+    title: 'Graphic Design Basics', 
+    category: 'Design', 
+    level: 'Beginner', 
+    price: 99, 
+    rating: 4.7, 
+    image: 'https://via.placeholder.com/300?text=Graphic+Design'
+  },
+  { 
+    id: 12, 
+    title: 'Photography Masterclass', 
+    category: 'Media', 
+    level: 'Advanced', 
+    price: 149, 
+    rating: 4.8, 
+    image: 'https://via.placeholder.com/300?text=Photography'
+  },
+  { 
+    id: 13, 
+    title: 'Cloud Computing Essentials', 
+    category: 'Technology', 
+    level: 'Intermediate', 
+    price: 179, 
+    rating: 4.6, 
+    image: 'https://via.placeholder.com/300?text=Cloud+Computing'
+  },
+  { 
+    id: 14, 
+    title: 'Project Management 101', 
+    category: 'Business', 
+    level: 'Beginner', 
+    price: 119, 
+    rating: 4.3, 
+    image: 'https://via.placeholder.com/300?text=Project+Management'
+  },
+  { 
+    id: 15, 
+    title: 'Machine Learning Basics', 
+    category: 'Technology', 
+    level: 'Advanced', 
+    price: 199, 
+    rating: 4.9, 
+    image: 'https://via.placeholder.com/300?text=Machine+Learning'
+  },
+  { 
+    id: 16, 
+    title: 'SEO Mastery', 
+    category: 'Marketing', 
+    level: 'Intermediate', 
+    price: 129, 
+    rating: 4.5, 
+    image: 'https://via.placeholder.com/300?text=SEO'
+  },
+  { 
+    id: 17, 
+    title: 'Artificial Intelligence for Everyone', 
+    category: 'Technology', 
+    level: 'Beginner', 
+    price: 149, 
+    rating: 4.8, 
+    image: 'https://via.placeholder.com/300?text=Artificial+Intelligence'
+  },
+  { 
+    id: 18, 
+    title: 'Ethical Hacking Basics', 
+    category: 'Technology', 
+    level: 'Advanced', 
+    price: 169, 
+    rating: 4.7, 
+    image: 'https://via.placeholder.com/300?text=Ethical+Hacking'
+  },
+  { 
+    id: 19, 
+    title: 'Social Media Marketing', 
+    category: 'Marketing', 
+    level: 'Beginner', 
+    price: 89, 
+    rating: 4.6, 
+    image: 'https://via.placeholder.com/300?text=Social+Media+Marketing'
+  },
+  { 
+    id: 20, 
+    title: 'E-commerce Strategies', 
+    category: 'Business', 
+    level: 'Intermediate', 
+    price: 159, 
+    rating: 4.4, 
+    image: 'https://via.placeholder.com/300?text=E-commerce'
+  },
 ];
+
 
 const CoursesPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
