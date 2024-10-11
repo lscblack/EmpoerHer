@@ -268,9 +268,12 @@ const CoursesPage = () => {
         </div>
 
         {/* Courses Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
           {currentCourses.map(course => (
             <div key={course.id} className="bg-white rounded-lg shadow-md overflow-hidden">
+              <div className="w-full h-[210px] overflow-hidden">
+                <img src={course.image} alt="" className='w-full h-full object-cover' />
+              </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{course.title}</h3>
                 <p className="text-gray-600 mb-4">{course.category}</p>
