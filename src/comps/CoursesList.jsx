@@ -10,16 +10,16 @@ const coursesData = [
     level: 'Beginner', 
     price: 99, 
     rating: 4.5, 
-    image: 'https://via.placeholder.com/300?text=Leadership'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFrA5d_yoCkxMhs9VNkW1vg35pncTneL5X0uOKFu7k2WObGmYxJ0jgDkaMCgtSEIp_CoE&usqp=CAU'
   },
   { 
     id: 2, 
     title: 'Advanced Web Development', 
     category: 'Technology', 
     level: 'Advanced', 
-    price: 149, 
+    price: 129, 
     rating: 4.8, 
-    image: 'https://via.placeholder.com/300?text=Web+Development'
+    image: 'https://www.creativeitinstitute.com/images/course/course_1663052056.jpg'
   },
   { 
     id: 3, 
@@ -28,7 +28,7 @@ const coursesData = [
     level: 'Intermediate', 
     price: 129, 
     rating: 4.6, 
-    image: 'https://via.placeholder.com/300?text=Branding'
+    image: 'https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:quality(100)/2024_5_31_638527891895302614_personal-brand.jpg'
   },
   { 
     id: 4, 
@@ -37,7 +37,7 @@ const coursesData = [
     level: 'Beginner', 
     price: 199, 
     rating: 4.9, 
-    image: 'https://via.placeholder.com/300?text=Data+Science'
+    image: 'https://www.fsm.ac.in/blog/wp-content/uploads/2022/07/FUqHEVVUsAAbZB0.jpg'
   },
   { 
     id: 5, 
@@ -46,7 +46,7 @@ const coursesData = [
     level: 'Intermediate', 
     price: 119, 
     rating: 4.3, 
-    image: 'https://via.placeholder.com/300?text=Marketing'
+    image: 'https://smartreach.io/blog/wp-content/uploads/2023/10/Cold-Email-Masterclass-18.png'
   },
   { 
     id: 6, 
@@ -55,7 +55,7 @@ const coursesData = [
     level: 'Beginner', 
     price: 89, 
     rating: 4.7, 
-    image: 'https://via.placeholder.com/300?text=Python'
+    image: 'https://ytimg.googleusercontent.com/vi/uYjRzbP5aZs/maxresdefault.jpg'
   },
   { 
     id: 7, 
@@ -64,34 +64,34 @@ const coursesData = [
     level: 'Beginner', 
     price: 79, 
     rating: 4.2, 
-    image: 'https://via.placeholder.com/300?text=Digital+Marketing'
+    image: 'https://img.freepik.com/free-photo/digital-marketing-with-icons-business-people_53876-94833.jpg'
   },
   { 
     id: 8, 
     title: 'JavaScript Mastery', 
     category: 'Technology', 
     level: 'Advanced', 
-    price: 139, 
+    price: 99, 
     rating: 4.9, 
-    image: 'https://via.placeholder.com/300?text=JavaScript'
+    image: 'https://learn.edure.in/s/store/courses/636a0431e4b00641d2596354/cover.jpg?v=3'
   },
   { 
     id: 9, 
     title: 'Content Creation 101', 
     category: 'Media', 
     level: 'Beginner', 
-    price: 109, 
+    price: 100, 
     rating: 4.4, 
-    image: 'https://via.placeholder.com/300?text=Content+Creation'
+    image: 'https://images.squarespace-cdn.com/content/v1/5983753d893fc053508807d7/1622563358532-IQU9R7L1XFAOK975FD67/Types+of+Content+Creation+with+Dion+Marketing'
   },
   { 
     id: 10, 
     title: 'Cybersecurity Essentials', 
     category: 'Technology', 
     level: 'Intermediate', 
-    price: 159, 
+    price: 100, 
     rating: 4.5, 
-    image: 'https://via.placeholder.com/300?text=Cybersecurity'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0BKyZk7T4dZWB9sE7B3dxn0oSkYRnNTPh2A&s'
   },
   { 
     id: 11, 
@@ -100,88 +100,88 @@ const coursesData = [
     level: 'Beginner', 
     price: 99, 
     rating: 4.7, 
-    image: 'https://via.placeholder.com/300?text=Graphic+Design'
+    image: 'https://i.ytimg.com/vi/GQS7wPujL2k/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCa0PucUhUetNvEigfKTGUS89VB4A'
   },
   { 
     id: 12, 
     title: 'Photography Masterclass', 
     category: 'Media', 
     level: 'Advanced', 
-    price: 149, 
+    price: 89, 
     rating: 4.8, 
-    image: 'https://via.placeholder.com/300?text=Photography'
+    image: 'https://i.udemycdn.com/course/480x270/1462428_639f_7.jpg'
   },
   { 
     id: 13, 
     title: 'Cloud Computing Essentials', 
     category: 'Technology', 
     level: 'Intermediate', 
-    price: 179, 
+    price: 107, 
     rating: 4.6, 
-    image: 'https://via.placeholder.com/300?text=Cloud+Computing'
+    image: 'https://strucsoftsolutions.com/wp-content/uploads/2023/02/elements_of_cloud_computing_2021-1024x689.png'
   },
   { 
     id: 14, 
     title: 'Project Management 101', 
     category: 'Business', 
     level: 'Beginner', 
-    price: 119, 
+    price: 102, 
     rating: 4.3, 
-    image: 'https://via.placeholder.com/300?text=Project+Management'
+    image: 'https://media.licdn.com/dms/image/D4D12AQHAzpZZDBIkfA/article-cover_image-shrink_720_1280/0/1710486640359?e=2147483647&v=beta&t=_kP7RyfolRjZCXpwZO3GJqC4Trnozc_G8gP1uCmzilc'
   },
   { 
     id: 15, 
     title: 'Machine Learning Basics', 
     category: 'Technology', 
     level: 'Advanced', 
-    price: 199, 
+    price: 120, 
     rating: 4.9, 
-    image: 'https://via.placeholder.com/300?text=Machine+Learning'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCnY_erSTNXkw3Gd5I3ICpPPAoVsLT5AlPnw&s'
   },
   { 
     id: 16, 
     title: 'SEO Mastery', 
     category: 'Marketing', 
     level: 'Intermediate', 
-    price: 129, 
+    price: 99, 
     rating: 4.5, 
-    image: 'https://via.placeholder.com/300?text=SEO'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL52R3FFmjZbqUHsDM9fKi6af55GxMM2-p4tLigBCTTQkuCa7QEQc34iHPdDptvb0KVto&usqp=CAU'
   },
   { 
     id: 17, 
     title: 'Artificial Intelligence for Everyone', 
     category: 'Technology', 
     level: 'Beginner', 
-    price: 149, 
+    price: 125, 
     rating: 4.8, 
-    image: 'https://via.placeholder.com/300?text=Artificial+Intelligence'
+    image: 'https://dw1.s81c.com/developer-static-pages/default/en/generative-ai-for-developers/images/AI-CARD-2.jpg'
   },
   { 
     id: 18, 
     title: 'Ethical Hacking Basics', 
     category: 'Technology', 
     level: 'Advanced', 
-    price: 169, 
+    price: 130, 
     rating: 4.7, 
-    image: 'https://via.placeholder.com/300?text=Ethical+Hacking'
+    image: 'https://thecyberexpress.com/wp-content/uploads/Who-Are-Hackers.png'
   },
   { 
     id: 19, 
     title: 'Social Media Marketing', 
     category: 'Marketing', 
     level: 'Beginner', 
-    price: 89, 
+    price: 70, 
     rating: 4.6, 
-    image: 'https://via.placeholder.com/300?text=Social+Media+Marketing'
+    image: 'https://www.big-red-digital.com/images/blogimages/social-media-networks.jpg'
   },
   { 
     id: 20, 
     title: 'E-commerce Strategies', 
     category: 'Business', 
     level: 'Intermediate', 
-    price: 159, 
+    price: 99, 
     rating: 4.4, 
-    image: 'https://via.placeholder.com/300?text=E-commerce'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa2n90sG3uFr6PSNqKOwF14Ye9GEXK1ceg_g&s'
   },
 ];
 

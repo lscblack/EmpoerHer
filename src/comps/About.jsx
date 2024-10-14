@@ -10,7 +10,7 @@ const AboutUs = () => {
             About EmpowerHer
           </h1>
           <p className="mt-16 max-w-xl mx-auto text-xl text-gray-500">
-            Empowering women through education and mentorship
+            Empowering women through education and Technology
           </p>
         </div>
         <div className="mt-10">

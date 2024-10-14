@@ -4,7 +4,7 @@ export const Mentorship = () => {
   const mentorships = [
     {
       id: 1,
-      image: 'https://media.licdn.com/dms/image/D4D12AQGQja39w8q9ow/article-cover_image-shrink_720_1280/0/1687265994685?e=2147483647&v=beta&t=Y0shpfRNWLzWLiwD1lgcU7WUANahVYZEr3eJEfgJmBY',
+      image: 'https://www.packard.org/wp-content/uploads/2023/12/https___www.imagesofempowerment.org_wp-content_uploads_D_PA-1799312_347-scaled-1-1536x1024.jpg',
       title: 'Career Coaching',
       description: 'Get guidance to help you navigate your career path and achieve your goals.',
     },
@@ -16,7 +16,7 @@ export const Mentorship = () => {
     },
     {
       id: 3,
-      image: 'https://cdn.prod.website-files.com/5ce11396d0cadb67eb2cac0e/66b38aae46e952bb0b8ea45b_6273ca375ca745498c966417_Benefits%2520of%2520being%2520a%2520mentor.png',
+      image: 'https://www.packard.org/wp-content/uploads/2023/12/https___www.imagesofempowerment.org_wp-content_uploads_D_PA-1799312_347-scaled-1-1536x1024.jpg',
       title: 'Leadership Development',
       description: 'Become a more effective leader with personalized leadership coaching.',
     },

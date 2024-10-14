@@ -4,32 +4,34 @@ export const Courses = () => {
   const courses = [
     {
       id: 1,
-      image: 'https://i.ytimg.com/vi/6EukZDFE_Zg/maxresdefault.jpg',
+      image: 'https://decentinstitute.in/wp-content/uploads/2022/10/html-css-javascript.webp',
       title: 'Web Development',
       description: 'Learn the fundamentals of web development with HTML, CSS, and JavaScript.',
-      date: '1/3/2023',
+      date: '1/11/2024',
     },
     {
-      id: 2,
-      image: 'https://img-b.udemycdn.com/course/750x422/2314160_8d61_6.jpg',
-      title: 'Data Science',
-      description: 'Master data analysis, statistics, and machine learning techniques.',
-      date: '1/3/2023',
+      
+        "id": 2,
+        "image": "https://i1.wp.com/sthua.edu.sg/wp-content/uploads/2016/08/python1-logo1.png?fit=895%2C342&ssl=1",
+        "title": "Python Programming",
+        "description": "Learn Python programming from scratch, covering fundamentals, data structures, and application development.",
+        "date": "1/11/2024"
+      
     },
     {
       id: 3,
-      image: 'https://d2i2nj5el4wq1j.cloudfront.net/assets/courses/beginner-course-cf789b85328e4b8fac61cdf9ff8f69160dc290c48272b06e008c9081b024245c.png',
+      image: 'https://png.pngtree.com/thumb_back/fh260/background/20210910/pngtree-ui-ux-mobile-development-design-gradient-concept-image_860926.jpg',
       title: 'UI/UX Design',
       description: 'Design user-friendly and aesthetically pleasing interfaces.',
-      date: '1/3/2023',
+      date: '1/11/2024',
     },
     {
-      id: 4,
-      image: 'https://resources.reed.co.uk/courses/coursemedia/436537/6a1e69a6-6922-43ab-bc85-5d8548a32e20_cover.webp',
-      title: 'Digital Marketing',
-      description: 'Become an expert in SEO, PPC, and social media marketing.',
-      date: '1/3/2023',
-    },
+      "id": 4,
+      "image": "https://i.pcmag.com/imagery/reviews/00Z1mnZCcGR9r9D5hNbsFbW-36.fit_lim.size_1050x591.v1612863800.jpg",  // Example Wix logo URL
+      "title": " Web Design with Wix",
+      "description": "Learn to create stunning websites quickly and easily with Wix, a powerful no-code platform that offers a range of customizable templates and design tools.",
+      "date": "1/11/2024"
+    }
   ];
 
   return (
