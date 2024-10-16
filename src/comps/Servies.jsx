@@ -36,7 +36,7 @@ const Services = () => {
               icon={FaBook}
               title="Online Courses"
               description="Access a wide range of self-paced online courses covering various topics in leadership, technology, and personal development."
-              price="Starting at $99"
+              price="Starting at $80"
               buttonText="Browse Courses"
             />
 
@@ -44,7 +44,7 @@ const Services = () => {
               icon={FaUserFriends}
               title="1:1 Mentorship"
               description="Book personalized mentorship sessions with experienced professionals in your field for guidance and career advice."
-              price="$150 per session"
+              price="$40 per session"
               buttonText="Find a Mentor"
             />
 
@@ -52,7 +52,7 @@ const Services = () => {
               icon={FaCalendarCheck}
               title="Group Workshops"
               description="Join interactive group workshops led by industry experts, focusing on skill-building and networking."
-              price="$79 per workshop"
+              price="$60 per workshop"
               buttonText="View Schedule"
             />
           </div>
